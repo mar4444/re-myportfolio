@@ -76,7 +76,6 @@ body {
 }
 
 .nav-section {
-  border: 1px solid rgb(255, 4, 4);
   display: flex;
   flex-flow: row wrap;
 }
@@ -604,7 +603,7 @@ body {
     align-items: center;
     margin-right: 120px;
     line-height: 50px;
-    background-color: rgb(252, 249, 249);
+    background-color: white;
     height: 10%;
     position: fixed;
     top: -40px;
