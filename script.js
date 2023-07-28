@@ -69,26 +69,7 @@ projects.forEach((project, index) => {
     technologies += `<li>${technology}</li>`;
   });
   // WRITING HTML
-  const code = `
-  <div class="projects container">
-  <div class="overflow">
-          <img class="project-img" src="${project.image}" alt="" />
-        </div>        
-        <div class="project-detail">
-          <h3 class="tertiary-heading">${project.name}</h3>
-          <ul class="project-details">
-            ${details}
-          </ul>
-          <p class="project-description">
-            ${project.description}
-          </p>
-          <ul class="project-lang">
-            ${technologies}
-          </ul>
-          <button class="btn" id="see-project-${index}">See project</button>
-        </div>
-        </div>
-  `;
+  
   template += code;
 });
 projects.innerHTML = template;
